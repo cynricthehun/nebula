@@ -1,4 +1,4 @@
-My philosophy is make it work first, then make it clean. So you will probably see lots of janky code and refactors. But overtime, one the project matures, I will make sure to keep it cleaner.
+My philosophy is make it work first, then make it clean. So you will probably see lots of janky code and refactors. But overtime, once the project matures, I will make sure to keep it clean.
 
 ## Project Structure
 
