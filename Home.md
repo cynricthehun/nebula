@@ -2,4 +2,4 @@
 
 ## Contribution
 
- - [Nebula Development Setup](https://github.com/hubastard/nebula/wiki/Setting-up-a-development-environment)
+ - [Setting up a development environment](https://github.com/hubastard/nebula/wiki/Setting-up-a-development-environment)
