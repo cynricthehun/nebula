@@ -9,11 +9,12 @@
 
 ## Nebula setup
 1. Get the most up-to-date version of Dyson Sphere Program from Steam.
-2. Install BepInEx inside the Dyson Sphere Program Steam installation folder.
-   - For example: `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\BepInEx`
-3. Run the game once to activate BepInEx
+2. Install [BepInEx](https://github.com/BepInEx/BepInEx/releases) inside the Dyson Sphere Program Steam installation folder.
+   - Download `BepInEx_x64_<version>.zip`
+   - Unzip the content to `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\BepInEx`
+3. Run the game once to activate BepInEx (new subfolders should appears in the BepInEx folder)
 4. Add a `Nebula` folder inside the `BepInEx\Plugins` folder
-5. Next, you will need to copy the following DLLs to the `/Libs` folder of the Nebula repo .
+5. Next, you will need to copy the following DLLs to the `/Libs` folder of the Nebula repo.
    - From `Dyson Sphere Program\BepInEx\core\` copy `0Harmony.dll`, `BepInEx.dll` and `BepInEx.Harmony.dll`
    - From `Dyson Sphere Program\DSPGAME_Data\Managed\` copy `Assembly-CSharp.dll` and all the DLLs that starts with `Unity`
 6. **IMPORTANT!!** Once all the DLLs are copied to the `/Libs` folder, you need to select all the Unity DLLs and drag them on the `DowngradeDll.exe`
