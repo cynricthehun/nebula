@@ -12,7 +12,7 @@ The Solution is currently separated into 5 main projects.
    - This project is responsible for processing incoming packets received from remote clients.
 - `NebulaClient`
    - This project includes all the networking code for the remote clients.
-   - This project has access to all of the client game code.
+   - This project has access to all of the client game code to help in retrieving game states.
    - This project is responsible for processing incoming packets received from the host.
 - `NebulaModel`
    - This project contains all the data model that are shared between all projects.
