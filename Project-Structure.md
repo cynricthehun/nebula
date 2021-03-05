@@ -5,13 +5,18 @@ My philosophy is make it work first, then make it clean. So you will probably se
 The Solution is currently broken down into 4 main projects.
 - `NebulaPatcher`
    - This project contains the entry point `NebulaPlugin.ts` for the mod.
-   - It also contains all of the Harmony patches.
-- `NebulaServer`
-   - This project is the actual server code that the clients connect to.
-   - This project does not have any reference to the actual game code it only handle server stuff (clients communication, server state, etc).
+   - It also contains all of the Harmony patches and transpilers.
+- `NebulaHost`
+   - This project includes all the networking code for the Master Client (Host).
+   - This project has access to all the host game code.
+   - This project is responsible for processing incoming packets received from remote clients.
 - `NebulaClient`
-   - This project contains all the code that will do modification to the actual game code (spawning object, remote player synchronization, etc..)
-   - It also contain the actual network client code to be able to connect to the server.
+   - This project includes all the networking code for the remote clients.
+   - This project has access to all of the client game code.
+   - This project is responsible for processing incoming packets received from the host.
 - `NebulaModel`
-   - This project is contains all the code for the actual data model and is also shared between the NebulaServer and NebulaClient.
-   - This project shouldn't have any reference to the actual game code.
+   - This project contains all the data model that are shared between all projects.
+   - This project shouldn't have any reference to the actual game code
+- `NebulaWorld`
+   - This project should includes all the code that interact with the actual game world.
+   - This project contains at its core the `SimulatedWorld` class which is used to manipulate the world and keep track of all the temporary entities that were created during a multiplayer session.
