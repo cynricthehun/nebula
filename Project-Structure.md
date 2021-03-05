@@ -8,7 +8,7 @@ The Solution is currently separated into 5 main projects.
    - It also contains all of the Harmony patches and transpilers.
 - `NebulaHost`
    - This project includes all the networking code for the Master Client (Host).
-   - This project has access to all the host game code.
+   - This project has access to all the host game code to help in retrieving game states.
    - This project is responsible for processing incoming packets received from remote clients.
 - `NebulaClient`
    - This project includes all the networking code for the remote clients.
