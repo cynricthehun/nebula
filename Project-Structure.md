@@ -2,7 +2,7 @@ My philosophy is make it work first, then make it clean. So you will probably se
 
 ## Project Structure
 
-The Solution is currently broken down into 4 main projects.
+The Solution is currently separated into 5 main projects.
 - `NebulaPatcher`
    - This project contains the entry point `NebulaPlugin.ts` for the mod.
    - It also contains all of the Harmony patches and transpilers.
