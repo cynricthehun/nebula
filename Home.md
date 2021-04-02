@@ -4,5 +4,5 @@ The mod is in very early stages of development and still in a proof of concept s
 
 ## Contribution
 
- - [Setting up a development environment](https://github.com/hubastard/nebula/wiki/Setting-up-a-development-environment)
  - [Understanding the project structure](https://github.com/hubastard/nebula/wiki/project-structure)
+ - [Setting up a development environment](https://github.com/hubastard/nebula/wiki/Setting-up-a-development-environment)
