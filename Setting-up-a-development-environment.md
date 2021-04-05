@@ -14,24 +14,15 @@
    - Unzip the content to `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\BepInEx`
 3. Run the game once to activate BepInEx (new subfolders should appears in the BepInEx folder)
 4. Add a `Nebula` folder inside the `BepInEx\Plugins` folder
-5. Next, you will need to copy the following DLLs to the `/Libs` folder of the Nebula repo.
-   - From `Dyson Sphere Program\BepInEx\core\` copy `0Harmony.dll`, `BepInEx.dll` and `BepInEx.Harmony.dll`
-   - From `Dyson Sphere Program\DSPGAME_Data\Managed\` copy `Assembly-CSharp.dll` and all the DLLs that starts with `Unity`
-6. **IMPORTANT!!** Once all the DLLs are copied to the `/Libs` folder, you need to select all the Unity DLLs and drag them on the `DowngradeDll.exe`
-7. Load `Nebula.sln` inside Visual Studio
-8. Build entire solution to generate binaries.
+5. Load `Nebula.sln` inside Visual Studio
+6. If your game installation is not at the default location `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program` a `DevEnv.targets` file should have been generated at the root of your copy of the Nebula repo. You can change the path to your game installation location.
+7. Build entire solution to generate binaries.
    - Nebula uses Visual Studio build events to automatically copy the mod binaries to the `BepInEx\Plugins\Nebula` folder.
 
 ## Verify Setup
 1. Make sure that you have built the entire solution without errors
-2. Start the `NebulaServer` app from within VisualStudio (or from the built .exe at `Nebula\NebulaServer\bin\<target>\netcoreapp3.1\NebulaServer.exe`)
-3. Start the game using `Steam`
-4. From the game main menu, you should now see a `Multiplayer` button
-5. Click `Multiplayer`
-6. If the server is not running on your machine, you will need specify the ip and port in the `host` input
-   - For example: `127.0.0.1:8469` (If the NebulaServer uses the default port `8469`, you can omit the port in the input field) 
-7. Click `Join Game`
-8. You should now see in your server prompt that a new connection was made
+2. Start the game using `Steam`
+3. From the game main menu, you should now see a `Multiplayer` button
 
 ## How to run 2 game instances on the same computer
 1. Install [Sandboxie Plus](https://github.com/sandboxie-plus/Sandboxie/releases)
