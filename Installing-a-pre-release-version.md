@@ -4,3 +4,9 @@
    - Default install location is: `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program`
 2. Download the zip of the [pre-release version](https://github.com/hubastard/nebula/releases) that you want to use. For example: `Nebula_v0.0.1.0.zip`
 3. Unzip it and move the `Nebula` folder into the `Dyson Sphere Program/BepInEx/plugins` folder
+4. Run the game
+5. If you see a `Multiplayer` button in the main menu it means that the mod installation worked! Have fun!
+
+### Side Notes:
+- Default port used to connect to the host is `8469`
+- This means that the host most port forward the port `8469` for others to be able to connect to the game.
