@@ -9,4 +9,5 @@
 
 ### Side Notes:
 - Default port used to connect to the host is `8469`
-- This means that the host most port forward the port `8469` for others to be able to connect to the game.
+- This means that the host most port forward the port `8469` for others to be able to connect to the game. 
+    - You can follow this [Minecraft port forwarding tutorial](https://www.youtube.com/watch?v=X75GbRaGzu8&ab_channel=TroubleChute) if you have no idea how to do that, just remember to use the port `8469`.
