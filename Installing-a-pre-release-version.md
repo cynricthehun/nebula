@@ -2,7 +2,7 @@
 
 1. Install [BepInEx](https://bepinex.github.io/bepinex_docs/master/articles/user_guide/installation/index.html#installing-bepinex-1) into your game install directory
    - Default install location is: `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program`
-2. Download the zip of the [pre-release version](https://github.com/hubastard/nebula/releases) that you want to use. For example: `Nebula_v0.0.1.0.zip`
+2. Download the latest version zip of the [pre-release version](https://github.com/hubastard/nebula/releases) that you want to use. For example: `Nebula_v0.0.1.0.zip`
 3. Unzip it and move the `Nebula` folder into the `Dyson Sphere Program/BepInEx/plugins` folder
 4. Run the game
 5. If you see a `Multiplayer` button in the main menu it means that the mod installation worked! Have fun!
