@@ -1,7 +1,9 @@
 # Installing and testing a pre-release version of the mod
 
-1. Install [BepInEx](https://docs.bepinex.dev/articles/user_guide/installation/index.html) into your game install directory
-   - Default install location is: `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program`
+1. Install [BepInEx](https://github.com/BepInEx/BepInEx/releases) inside the Dyson Sphere Program Steam installation folder.
+   - Download `BepInEx_x64_<version>.zip` from the link above
+   - Unzip the content to `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\BepInEx`
+   - Run the game once to activate BepInEx (new subfolders should appears in the BepInEx folder)
 2. Download the latest version zip of the [pre-release version](https://github.com/hubastard/nebula/releases) that you want to use. For example: `Nebula_vX.X.X.X.zip`
 3. Unzip it and move the `Nebula` folder into the `Dyson Sphere Program/BepInEx/plugins` folder
 4. Run the game
