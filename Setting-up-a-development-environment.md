@@ -15,8 +15,11 @@
 3. Run the game once to activate BepInEx (new subfolders should appears in the BepInEx folder)
 4. Add a `Nebula` folder inside the `BepInEx\Plugins` folder
 5. Load `Nebula.sln` inside Visual Studio
-6. If your game installation is not at the default location `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program` a `DevEnv.targets` file should have been generated at the root of your copy of the Nebula repo. You can change the path to your game installation location.
-7. Build entire solution to generate binaries.
+6. Add NuGet to Visual Studio package sources.
+   - In the toolbar open Tools -> Options, then find NuGet Package Manager -> Package Sources
+   - Create a new source with name NuGet and url https://api.nuget.org/v3/index.json
+7. If your game installation is not at the default location `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program` a `DevEnv.targets` file should have been generated at the root of your copy of the Nebula repo. You can change the path to your game installation location.
+8. Build entire solution to generate binaries.
    - Nebula uses Visual Studio build events to automatically copy the mod binaries to the `BepInEx\Plugins\Nebula` folder.
 
 ## Verify Setup
