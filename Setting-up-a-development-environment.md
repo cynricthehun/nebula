@@ -41,4 +41,4 @@
 ## Recommended Tools
 I highly recommend you to use the very useful plugin [RuntimeUnityEditor](https://github.com/ManlyMarco/RuntimeUnityEditor/releases). Once installed, you only need to press `F12` while in-game to open it and you will be able to inspect any Unity GameObjects, Components and it has a runtime console to run some code at runtime.
 
-You just need to download and unzip its content into and put it in the `BepInEx\Plugins\RuntimeUnityEditor` folder next to where the Nebula plugin is.
+You just need to download and unzip its content and put it in the `BepInEx\Plugins\RuntimeUnityEditor` folder next to where the Nebula plugin is.
