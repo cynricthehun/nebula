@@ -31,7 +31,7 @@
 1. Install [Sandboxie Plus](https://github.com/sandboxie-plus/Sandboxie/releases)
 2. Launch Sandboxie Plus
 3. Right Click on `DefaultBox` and choose `Run -> Run Program`
-4. In the popup window browser to select the `Steam.exe` from your Steam installation location.
+4. In the popup window browse to select the `Steam.exe` from your Steam installation location.
 5. Make sure to check the `Run As UAC Administrator` and click `OK`
 6. Also start steam normally
 7. You should now have 2 Steam apps running at once.
