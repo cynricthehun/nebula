@@ -136,7 +136,7 @@ IFactoryManager factories = session.Factories;
 ```
 
 ### Sending packets
-When sending packets you need to know on which side code is running. To do that you can use LocalPlayer class in your code. Also note that packet processors have `IsHost` variable
+When sending packets you need to know on which side (client or server) your code is running. To do that you can use LocalPlayer class in your code. Also note that packet processors already have a `IsHost` and `IsClient` property.
 ```cs
 ILocalPlayer localPlayer = NebulaModAPI.MultiplayerSession.LocalPlayer;
 INetworkProvider network = NebulaModAPI.MultiplayerSession.Network;
