@@ -129,10 +129,14 @@ public class YourCustomPacketProcessor : BasePacketProcessor<YourCustomPacket>
 ### Access to some Nebula classes
 You can access some classes from Nebula by using NebulaModAPI class getters. For more look at source code of Nebula API
 ```cs
-IMultiplayerSession session = NebulaModAPI.MultiplayerSession;
-INetworkProvider network = session.Network;
-ILocalPlayer player = session.LocalPlayer;
-IFactoryManager factories = session.Factories;
+// To know if the player is currently in a multiplayer game
+NebulaModAPI.IsMultiplayerActive
+
+// To send a packet to the server / clients
+NebulaModAPI.MultiplayerSession.Network.SendPacket()
+
+// All the information relative to the current local player
+NebulaModAPI.MultiplayerSession.LocalPlayer
 ```
 
 ### Sending packets
