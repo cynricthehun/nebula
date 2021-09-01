@@ -111,7 +111,7 @@ public class YourCustomPacket
     }
 }
 
-[RegisterPacketProcessor] // This attribute lets Nebula know this packet proccessor exists
+[RegisterPacketProcessor] // This attribute lets Nebula know that this is the processor class for your new packet type
 public class YourCustomPacketProcessor : BasePacketProcessor<YourCustomPacket>
 {
     public override void ProcessPacket(YourCustomPacket packet, INebulaConnection conn)
