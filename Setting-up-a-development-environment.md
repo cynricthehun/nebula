@@ -28,6 +28,13 @@
 3. From the game main menu, you should now see a `Multiplayer` button
 
 ## How to run 2 game instances on the same computer
+There are two options for running multiple instances:
+
+### Remove Single Instance
+Edit `Dyson Sphere Program\DSPGAME_Data\boot.config`, removing the `single-instance=` line from the file.  
+If you would like to keep the instances settings separate then Sandboxie might be preferred.
+
+### Sandboxie
 1. Install [Sandboxie Plus](https://github.com/sandboxie-plus/Sandboxie/releases)
 2. Launch Sandboxie Plus
 3. Right Click on `DefaultBox` and choose `Run -> Run Program`
