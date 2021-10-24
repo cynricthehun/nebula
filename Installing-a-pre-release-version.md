@@ -8,7 +8,7 @@ See [DSP-Wiki](https://dsp-wiki.com/Modding:Getting_Started#Using_the_Mod_Manage
 ## Manual Installation
 1. Install [BepInEx](https://github.com/BepInEx/BepInEx/releases/latest) inside the Dyson Sphere Program Steam installation folder.
    - Download `BepInEx_x64_<version>.zip` from the link above
-   - Unzip the contents of the zip to `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\` (or wherever you have installed Dyson Sphere Program to)
+   - Unzip the contents of the zip to `C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program\` (or wherever you have installed Dyson Sphere Program to), `winhttp.dll` should be next to `DSPGAME.exe`
    - Run the game once to activate BepInEx (new subfolders should appears in the BepInEx folder)
 2. Download the latest version of [Nebula](https://github.com/hubastard/nebula/releases/latest) that you want to use. For example: `Nebula_vX.X.X.X.zip`
 3. Unzip the contents of the zip into the `Dyson Sphere Program/BepInEx/plugins` folder
