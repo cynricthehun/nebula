@@ -8,7 +8,8 @@
 3. Download latest Nebula and API packages from Thunderstore.
 4. Add a `nebula-NebulaMultiplayerMod` and `nebula-NebulaMultiplayerModApi` folders inside the `BepInEx\Plugins` folder
 5. Install both plugins into created folders.
-6. Use assembly in `nebula-NebulaMultiplayerModApi` folder as dependency in your mod project
+6. Add a reference to the [nuget.org package NebulaMultiplayerModApi](https://www.nuget.org/packages/NebulaMultiplayerModApi) to your project.  
+If you use the new SDK format for your csproj you can simply add `<PackageReference Include="NebulaMultiplayerModApi" Version="1.*" PrivateAssets="all" />` to a PropertyGroup within your project's .csproj file.
 
 ## Releasing plugin with nebula support.
 1. Don't add NebulaAPI dll to your Thunderstore archive.
