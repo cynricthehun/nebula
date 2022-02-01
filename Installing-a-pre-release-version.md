@@ -33,6 +33,8 @@ See [DSP-Wiki](https://dsp-wiki.com/Modding:Getting_Started#Using_the_Mod_Manage
 9. Launch Dyson Sphere Program from Steam Library again.
 10. Select `Multiplayer` option that should now be present in your main menu.
 
+## Extras
+
 ### Server Accessibility
 ---
 Server Accessibility is beyond the scope of this tutorial, but it's worth notifying you of the subject matter in case you need some exposure to key terms for research purposes.
